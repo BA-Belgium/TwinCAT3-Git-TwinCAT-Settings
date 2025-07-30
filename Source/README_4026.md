@@ -1,4 +1,4 @@
-# Best practices XAE environment setup for git in TwinCAT 4024
+# Best practices XAE environment setup for git in TwinCAT 4026
 ## Informational video
 PLC programming using TwinCAT 3 - Version control (Part 13/18)
 https://www.youtube.com/watch?v=1g6eYnlzKtA&t=2866s
@@ -17,15 +17,29 @@ A lot of internal markers and user bookmarks are no longer saved in the main pro
 ![image](4026/02_XAE_Write_Options.png)
 
 ## Enable Multiple Project Files
-Recommended, it will create a lot of smaller files, bit it reduces the number of code changes in the main project file. 
-This is easier during code compare.
+Recommended, it will create a lot of smaller files, Save individual projects, NC axes or IO devices in separate files. Each file contains parameters and settings to that respective object.
 
 ![image](4026/01_XAE_Independent_project_files.png)
+
+It reduces the number of code changes in the main project file. This is easier during code compare.
+
+It avoids the need to have the complete project file checked out when making changes.
+
+* Objects that are saved with Independet Project File are marked with a small floppy disk.
+* Black floppy disk, no unsaved changes.
+* Red floppy disk, unsaved changes.
+
+Remark: Activate Independent Project File afterwards. If the project were created before creating project possible to manually force creation.
+
+![10 Save Independent Project Files](4026/10_Save_Independent_Project_Files.png)
 
 ## Remove check 'write project versions' in the PLC project
 This minimizes code change detections in source control.
 
+![04 PROJECT Minimize ID changes](4026/03_PROJECT_Write_Product_Versions.png)
+
 Remark: (1) and (2) are inherited from the global settings in the XAE environment (see above)
 
-![04 PROJECT Minimize ID changes](4026/03_PROJECT_Write_Product_Versions.png)
+
+
 
