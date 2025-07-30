@@ -9,7 +9,7 @@ https://infosys.beckhoff.com/content/1033/project_compare_tool/27021597866795659
 ## Save lineID's to an external file
 A lot of internal markers and user bookmarks are no longer saved in the main project file but in separate files. This is easier for merge actions in source control.
 
-![image](https://user-images.githubusercontent.com/79637976/208902919-b1a33c55-31d8-47f8-bbae-68a9eccefb71.png)
+![image](Source/4024/01 XAE Independent project files.png)
 
 ## Enable Multiple Project Files
 Recommended, it will create a lot of smaller files, bit it reduces the number of code changes in the main project file. 
