@@ -2,8 +2,8 @@
 This repository contains:
 * template .gitignore file for usage with TwinCAT 
 * best practices XAE environment setup for git integration 
-  * [TwinCAT 4024 instructions](source/README_4024.md)
-  * [TwinCAT 4026 instructions](source/README_4026.md)
+  * [TwinCAT 4024 instructions](Source/README_4024.md)
+  * [TwinCAT 4026 instructions](Source/README_4026.md)
 
 # Template .gitIgnore file
 * a base .gitIgnore file was used
@@ -39,5 +39,5 @@ Per default all library files are excluded except for the ones in any Compiled L
 
 # Best practices XAE environment setup for git integration 
 See
-  * [TwinCAT 4024 instructions](source/README_4024.md)
-  * [TwinCAT 4026 instructions](source/README_4026.md)
+  * [TwinCAT 4024 instructions](Source/README_4024.md)
+  * [TwinCAT 4026 instructions](Source/README_4026.md)
